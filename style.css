@@ -1,0 +1,61 @@
+body {
+    padding: 0px;    
+    margin: 0px;
+}
+
+.telephones {
+    background-color: #474747;
+    padding: 5px 10%;
+    text-align: right;
+}
+
+.ph {
+    text-decoration: none;
+    color: aliceblue;
+    
+
+    opacity: 60%;
+}
+
+.ph:hover {
+    opacity: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu .list{
+    display:flex;  
+    padding: 10px 0px;  
+}
+
+.list li {
+    padding-right: 50px;
+    text-transform: uppercase;
+
+    font-family: 'Monsterrat';
+}
+
+.list li:not(:first-child) {
+    padding-top: 15px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.log {
+    width: 100px;
+}
+
+.line1 {    
+    width: 80%;
+    padding: 0px auto;
+}

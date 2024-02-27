@@ -1,4 +1,12 @@
+@font-face {
+    font-family: Montsterrat;
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+
+
 body {
+    font-family: Montsterrat;
     padding: 0px;    
     margin: 0px;
 }
@@ -24,6 +32,7 @@ body {
 .nav-menu {
     display: flex;
     justify-content: center;
+    height: 70px;
 }
 
 .nav-menu .list{
@@ -32,22 +41,28 @@ body {
 }
 
 .list li {
-    padding-right: 50px;
+    padding: 10px 25px;
     text-transform: uppercase;
 
-    font-family: 'Monsterrat';
+    font-family: Montsterrat;
+    font-weight: 500;
+    height: 20px;
 }
 
-.list li:not(:first-child) {
-    padding-top: 15px;
-}
+
 
 .list {
     list-style-type: none;
 }
 
-.list li:hover {
-    text-decoration: underline;
+.list li:not(:first-child):hover {
+    /*text-decoration: underline;*/
+    cursor: pointer;
+    display: block;
+    box-shadow: 0px 3px #42424262;
+}
+
+li:first-child:hover {
     cursor: pointer;
 }
 
